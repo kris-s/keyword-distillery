@@ -1,6 +1,21 @@
+import sys
 import json
 import requests
 from bs4 import BeautifulSoup
+
+
+def distillery_manager(mode=None):
+    if mode == 'weigh':
+        print 'Generating keyword weights.'
+        keyword_list = load_keyword_list()
+        generate_keyword_weights(keyword_list)
+
+    elif mode == 'map':
+        generate_keyword_relationship_map()
+
+    elif mode == 'filter':
+        # filter!
+        load_dataset = load_dataset()
 
 
 def load_keyword_list(filepath='data/keywords.json'):
@@ -9,7 +24,7 @@ def load_keyword_list(filepath='data/keywords.json'):
     return keyword_list
 
 
-def load_dataset(filepath='data/hawaii_treasure.json'):
+def load_dataset(filepath='data/data.json'):
     with open(filepath, 'r') as jsonfile:
         dataset = json.load(jsonfile)
     return dataset
@@ -119,14 +134,14 @@ def generate_keyword_relationship_map():
                 update_master_relationship_map(density, meta_data, keyword['keyword'])
         count += 1
 
-    with open('data/keyword_relationship_map_hawaii.json', 'w') as jsonfile:
+    with open('data/keyword_relationship_map.json', 'w') as jsonfile:
             jsonfile.write(json.dumps(keyword_relation_map,
                                       sort_keys=True,
                                       indent=4,
                                       separators=(',', ': ')))
 
 def filter_non_related_keywords():
-    unfiltered = load_dataset(filepath='data/keyword_relationship_map_hawaii.json')
+    unfiltered = load_dataset(filepath='data/keyword_relationship_map.json')
     filtered = []
     for keyword in unfiltered:
         if (len(keyword['related_data']) > 0):
@@ -137,10 +152,30 @@ def filter_non_related_keywords():
                                          key=lambda k: k['relation_weight'],
                                          reverse=True)
 
-    with open('data/filtered_keyword_relationship_map_hawaii.json', 'w') as jsonfile:
+    with open('data/filtered_keyword_relationship_map.json', 'w') as jsonfile:
             jsonfile.write(json.dumps(filtered,
                                       sort_keys=True,
                                       indent=4,
                                       separators=(',', ': ')))
 
-filter_non_related_keywords()
+if len(sys.argv) != 2:
+    print '\nCommands:'
+    print '  weigh: python distill.py weigh'
+    print '    map: python distill.py map'
+    print ' filter: python distill.py filter\n'
+    exit()
+
+if sys.argv[1] == 'weigh':
+    distillery_manager(mode='weigh')
+
+elif sys.argv[1] == 'filter':
+    distillery_manager(mode='filter')
+
+else:
+    print '\nCommands:'
+    print '  weigh: python distill.py weigh'
+    print '    map: python distill.py map'
+    print ' filter: python distill.py filter\n'
+    exit()
+
+# filter_non_related_keywords()
