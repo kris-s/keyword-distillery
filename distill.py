@@ -10,12 +10,9 @@ def distillery_manager(mode=None):
         keyword_list = load_keyword_list()
         generate_keyword_weights(keyword_list)
 
-    elif mode == 'map':
-        generate_keyword_relationship_map()
-
     elif mode == 'filter':
-        # filter!
-        load_dataset = load_dataset()
+        generate_keyword_relationship_map()
+        filter_non_related_keywords()
 
 
 def load_keyword_list(filepath='data/keywords.json'):
@@ -96,7 +93,7 @@ def generate_keyword_weights(keyword_list):
     return weighted_keyword_list
 
 
-def update_master_relationship_map(density, meta_data, keyword):
+def update_master_relationship_map(density, meta_data, keyword, keyword_relation_map):
     meta_data['relation_weight'] = density
 
     for data in keyword_relation_map:
@@ -131,7 +128,10 @@ def generate_keyword_relationship_map():
             density = generate_keyword_density(target_data.content, keyword['keyword'])
             if density > 0.0:
                 density /= len(target_data.content)
-                update_master_relationship_map(density, meta_data, keyword['keyword'])
+                update_master_relationship_map(density,
+                                               meta_data,
+                                               keyword['keyword'],
+                                               keyword_relation_map)
         count += 1
 
     with open('data/keyword_relationship_map.json', 'w') as jsonfile:
@@ -161,7 +161,6 @@ def filter_non_related_keywords():
 if len(sys.argv) != 2:
     print '\nCommands:'
     print '  weigh: python distill.py weigh'
-    print '    map: python distill.py map'
     print ' filter: python distill.py filter\n'
     exit()
 
@@ -174,8 +173,5 @@ elif sys.argv[1] == 'filter':
 else:
     print '\nCommands:'
     print '  weigh: python distill.py weigh'
-    print '    map: python distill.py map'
     print ' filter: python distill.py filter\n'
     exit()
-
-# filter_non_related_keywords()

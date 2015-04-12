@@ -10,7 +10,8 @@ Generates a ranked list of keywords. Each keyword can generate a ranked list of 
  * http://data.hawaii.gov/data.json
  * http://data.oregon.gov/data.json
 * Run distill.py:
- * `python distill.py <path/to/keywords.json> <path/to/data.json>`
+ * `python distill.py weigh`
+ * `python distill.py filter`
 
 
 #Method
