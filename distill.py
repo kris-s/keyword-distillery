@@ -1,16 +1,84 @@
 import json
+import requests
+from bs4 import BeautifulSoup
+# 0. select keyword
+# 1. get a dataset
+# 3. comb through other datasets looking for same kewords
+# 4. relation based on keyword density (number of instances of keyword / length of file)
 
-1. get a dataset
-2. generate simple keywords (based on title?)
-3. comb through other datasets looking for same kewords
-4. relation based on keyword density (number of instances of keyword / length of file)
 
-def load_dataset(dataset):
-    pass
+def load_keyword_list(filepath='data/existing_keywords.json'):
+    with open(filepath, 'r') as jsonfile:
+        keyword_list = json.load(jsonfile)
+    return keyword_list
+
+
+def load_dataset(filepath='data/hawaii_treasure.json'):
+    with open(filepath, 'r') as jsonfile:
+        dataset = json.load(jsonfile)
+    return dataset
+
 
 def generate_simple_keywords(dataset):
     pass
     return keywords
 
-def generate_keyword_density(dataset, keywords):
+
+def generate_keyword_density(dataset, keyword):
     pass
+
+
+def generate_keyword_weights(keyword_list):
+    """
+    Word weight is the inverse of the number of articles returned by Bing.
+    I tried Google Scholar initially but Google doesn't allow search crawling.
+
+    Weighting the words in this way allows finer refinement of keyword relations,
+    If an uncommon word appears frequently in two data sets, those data sets are
+    more strongly related than if a common word appeared with the same frequency.
+
+    This will take time to complete, 475 keyword terms took roughly three minutes.
+
+    :param array of keywords:
+    :return array of dictionaries:
+    """
+    bing_url_root = 'http://www.bing.com/search?q='
+    weighted_keyword_list = []
+
+    for keyword in keyword_list:
+        try:
+            keyword = keyword.replace(' ', '+')
+            bing_result = requests.get(bing_url_root + keyword)
+            soup = BeautifulSoup(bing_result.content)
+            results_count = soup.find('div', id='b_tween')
+            weight = str(results_count)
+            weight = weight[(weight.find("\"sb_count\""))+11:weight.find(" results")]
+            weight = weight.replace(',', '')
+            weight = 1.0 / float(weight)
+            weight_object = {'keyword': keyword,
+                             'weight': weight}
+            weighted_keyword_list.append(weight_object)
+            print '{}: {}'.format(keyword, weight)
+        except:
+            print 'Error creating weight.'
+
+    weighted_keyword_list = sorted(weighted_keyword_list, key=lambda k: k['weight'], reverse=True)
+
+    with open('data/weighted_existing_keywords.json', 'w') as jsonfile:
+        jsonfile.write(json.dumps(weighted_keyword_list,
+                                  sort_keys=True,
+                                  indent=4,
+                                  separators=(',', ': ')))
+
+    return weighted_keyword_list
+
+weighted_keyword_list = load_keyword_list(filepath='data/weighted_existing_keywords.json')
+
+comparison_dataset = load_dataset()
+keyword_relation_map = []
+
+for keyword in weighted_keyword_list:
+    test = 'https://data.hawaii.gov/api/views/mq8q-3qtk/rows.json?accessType=DOWNLOAD'
+    sample = requests.get(test)
+
+print 'DONE!'
