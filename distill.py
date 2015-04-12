@@ -19,13 +19,23 @@ def load_dataset(filepath='data/hawaii_treasure.json'):
     return dataset
 
 
-def generate_simple_keywords(dataset):
-    pass
-    return keywords
+def generate_master_file_skeleton(keyword_list):
+    master_skeleton = []
+    for keyword in keyword_list:
+        master_skeleton.append({'keyword': keyword['keyword'],
+                                'weight': keyword['weight'],
+                                'related_data': []})
+    return master_skeleton
 
 
 def generate_keyword_density(dataset, keyword):
-    pass
+    word_count = 0.0
+    try:
+        keyword = keyword.replace('+', ' ')
+        word_count = float(dataset.count(keyword))
+    except:
+        print 'Error generating density.'
+    return word_count
 
 
 def generate_keyword_weights(keyword_list):
@@ -72,13 +82,47 @@ def generate_keyword_weights(keyword_list):
 
     return weighted_keyword_list
 
-weighted_keyword_list = load_keyword_list(filepath='data/weighted_existing_keywords.json')
 
-comparison_dataset = load_dataset()
-keyword_relation_map = []
+def update_master_relationship_map(density, meta_data, keyword):
+    meta_data['relation_weight'] = density
 
-for keyword in weighted_keyword_list:
-    test = 'https://data.hawaii.gov/api/views/mq8q-3qtk/rows.json?accessType=DOWNLOAD'
-    sample = requests.get(test)
+    for data in keyword_relation_map:
+        if data['keyword'] == keyword:
+            data['related_data'].append(meta_data)
 
-print 'DONE!'
+
+def generate_keyword_relationship_map():
+    weighted_keyword_list = load_keyword_list(filepath='data/weighted_existing_keywords.json')
+    comparison_dataset = load_dataset()
+    comparison_dataset_length = len(comparison_dataset['dataset'])
+    keyword_relation_map = generate_master_file_skeleton(weighted_keyword_list)
+    count = 1
+
+    for data_chunk in comparison_dataset['dataset']:
+        print 'Scanning chunk {} of {}.'.format(count, comparison_dataset_length)
+        meta_data = {'id': data_chunk['identifier'][data_chunk['identifier'].find('/views/')+7:],
+                     'title': data_chunk['title'],
+                     'relation_weight': None}
+
+        for urls in data_chunk['distribution']:
+            if urls['mediaType'] == u'application/json':
+                target_url = urls['downloadURL']
+                if 'https' in target_url:
+                    target_url = target_url.replace('https', 'http')
+
+        target_data = requests.get(target_url)
+
+        for keyword in weighted_keyword_list:
+            relationship_chunk = {'keyword': keyword['keyword'],
+                                  'related_data': []}
+            density = generate_keyword_density(target_data.content, keyword['keyword'])
+            if density > 0.0:
+                density /= len(target_data.content)
+                update_master_relationship_map(density, meta_data, keyword['keyword'])
+        count += 1
+
+    with open('data/keyword_relationship_map.json', 'w') as jsonfile:
+            jsonfile.write(json.dumps(keyword_relation_map,
+                                      sort_keys=True,
+                                      indent=4,
+                                      separators=(',', ': ')))
