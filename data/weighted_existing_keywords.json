@@ -1,0 +1,1898 @@
+[
+    {
+        "keyword": "mapaplanet",
+        "weight": 0.25
+    },
+    {
+        "keyword": "space+for+education",
+        "weight": 0.16666666666666666
+    },
+    {
+        "keyword": "atovs",
+        "weight": 4.878048780487805e-05
+    },
+    {
+        "keyword": "toga-coare",
+        "weight": 3.460207612456748e-05
+    },
+    {
+        "keyword": "tropospheric+emission+spectrometer",
+        "weight": 3.08641975308642e-05
+    },
+    {
+        "keyword": "detrainment",
+        "weight": 2.865329512893983e-05
+    },
+    {
+        "keyword": "fgge",
+        "weight": 2.6881720430107527e-05
+    },
+    {
+        "keyword": "geos-5",
+        "weight": 2.4154589371980676e-05
+    },
+    {
+        "keyword": "dropsonde",
+        "weight": 1.7152658662092625e-05
+    },
+    {
+        "keyword": "nondefense",
+        "weight": 1.4245014245014244e-05
+    },
+    {
+        "keyword": "cloud+microphysics",
+        "weight": 1.2531328320802006e-05
+    },
+    {
+        "keyword": "greeness",
+        "weight": 1.2406947890818859e-05
+    },
+    {
+        "keyword": "cffr",
+        "weight": 1.1148272017837235e-05
+    },
+    {
+        "keyword": "u-wind",
+        "weight": 1.0362694300518135e-05
+    },
+    {
+        "keyword": "cfsr",
+        "weight": 1.0245901639344262e-05
+    },
+    {
+        "keyword": "introduction+to+astrobiology",
+        "weight": 1.0090817356205853e-05
+    },
+    {
+        "keyword": "astrogeology",
+        "weight": 1e-05
+    },
+    {
+        "keyword": "ssm/i",
+        "weight": 9.900990099009901e-06
+    },
+    {
+        "keyword": "geopotential+height",
+        "weight": 9.615384615384616e-06
+    },
+    {
+        "keyword": "sub-county",
+        "weight": 8.403361344537815e-06
+    },
+    {
+        "keyword": "merra",
+        "weight": 7.874015748031496e-06
+    },
+    {
+        "keyword": "meridional+winds",
+        "weight": 6.756756756756757e-06
+    },
+    {
+        "keyword": "raob",
+        "weight": 6.756756756756757e-06
+    },
+    {
+        "keyword": "esmd",
+        "weight": 6.024096385542168e-06
+    },
+    {
+        "keyword": "lunar+prospector",
+        "weight": 5.7142857142857145e-06
+    },
+    {
+        "keyword": "cloud-top+roughness",
+        "weight": 5.6818181818181815e-06
+    },
+    {
+        "keyword": "radiosonde",
+        "weight": 5.494505494505494e-06
+    },
+    {
+        "keyword": "viking+orbiter",
+        "weight": 5.405405405405405e-06
+    },
+    {
+        "keyword": "wspd",
+        "weight": 5.405405405405405e-06
+    },
+    {
+        "keyword": "earth+observing+system+eos",
+        "weight": 5.263157894736842e-06
+    },
+    {
+        "keyword": "nbii",
+        "weight": 5.154639175257732e-06
+    },
+    {
+        "keyword": "senors",
+        "weight": 5.025125628140704e-06
+    },
+    {
+        "keyword": "gdas",
+        "weight": 4.926108374384236e-06
+    },
+    {
+        "keyword": "avhrr",
+        "weight": 4.901960784313726e-06
+    },
+    {
+        "keyword": "v-wind",
+        "weight": 4.219409282700422e-06
+    },
+    {
+        "keyword": "tovs",
+        "weight": 4.016064257028113e-06
+    },
+    {
+        "keyword": "paleoclimate",
+        "weight": 3.484320557491289e-06
+    },
+    {
+        "keyword": "iapetus",
+        "weight": 3.4482758620689654e-06
+    },
+    {
+        "keyword": "mars+global+surveyor",
+        "weight": 3.4246575342465754e-06
+    },
+    {
+        "keyword": "longwave",
+        "weight": 2.967359050445104e-06
+    },
+    {
+        "keyword": "zonal+winds",
+        "weight": 2.8169014084507042e-06
+    },
+    {
+        "keyword": "undistributed",
+        "weight": 2.7397260273972604e-06
+    },
+    {
+        "keyword": "wind+profiler",
+        "weight": 2.7397260273972604e-06
+    },
+    {
+        "keyword": "cryosphere",
+        "weight": 2.73224043715847e-06
+    },
+    {
+        "keyword": "terrestrial+hydrosphere",
+        "weight": 2.2988505747126437e-06
+    },
+    {
+        "keyword": "emissivity",
+        "weight": 2.0449897750511246e-06
+    },
+    {
+        "keyword": "diffusivity",
+        "weight": 2.036659877800407e-06
+    },
+    {
+        "keyword": "latent+heat+flux",
+        "weight": 1.8484288354898337e-06
+    },
+    {
+        "keyword": "planetariums",
+        "weight": 1.8083182640144666e-06
+    },
+    {
+        "keyword": "alpex",
+        "weight": 1.4970059880239521e-06
+    },
+    {
+        "keyword": "tethys",
+        "weight": 1.440922190201729e-06
+    },
+    {
+        "keyword": "enceladus",
+        "weight": 1.3908205841446453e-06
+    },
+    {
+        "keyword": "troposphere",
+        "weight": 1.3477088948787062e-06
+    },
+    {
+        "keyword": "ntis",
+        "weight": 1.3404825737265416e-06
+    },
+    {
+        "keyword": "dtic",
+        "weight": 1.2453300124533e-06
+    },
+    {
+        "keyword": "upper-level+winds",
+        "weight": 1.182033096926714e-06
+    },
+    {
+        "keyword": "narr",
+        "weight": 1.1098779134295228e-06
+    },
+    {
+        "keyword": "osti",
+        "weight": 1.1098779134295228e-06
+    },
+    {
+        "keyword": "uvvis",
+        "weight": 9.433962264150943e-07
+    },
+    {
+        "keyword": "ncep",
+        "weight": 8.928571428571428e-07
+    },
+    {
+        "keyword": "landsat",
+        "weight": 7.936507936507937e-07
+    },
+    {
+        "keyword": "radiation+flux",
+        "weight": 7.194244604316547e-07
+    },
+    {
+        "keyword": "ganymede",
+        "weight": 6.493506493506493e-07
+    },
+    {
+        "keyword": "hydrological",
+        "weight": 6.493506493506493e-07
+    },
+    {
+        "keyword": "modis",
+        "weight": 6.451612903225806e-07
+    },
+    {
+        "keyword": "albedo",
+        "weight": 6.211180124223603e-07
+    },
+    {
+        "keyword": "lunar+orbiter",
+        "weight": 6.097560975609756e-07
+    },
+    {
+        "keyword": "callisto",
+        "weight": 5.747126436781609e-07
+    },
+    {
+        "keyword": "sensible+heat",
+        "weight": 5.58659217877095e-07
+    },
+    {
+        "keyword": "solar+flux",
+        "weight": 5.58659217877095e-07
+    },
+    {
+        "keyword": "potential+evaporation",
+        "weight": 5.524861878453039e-07
+    },
+    {
+        "keyword": "science+mission+directorate",
+        "weight": 5.434782608695652e-07
+    },
+    {
+        "keyword": "cfda",
+        "weight": 5.376344086021506e-07
+    },
+    {
+        "keyword": "goddard+space+flight+center",
+        "weight": 5.076142131979695e-07
+    },
+    {
+        "keyword": "transpiration",
+        "weight": 5.05050505050505e-07
+    },
+    {
+        "keyword": "ecmwf",
+        "weight": 5.025125628140703e-07
+    },
+    {
+        "keyword": "gsfc",
+        "weight": 4.901960784313725e-07
+    },
+    {
+        "keyword": "jet+propulsion+laboratory",
+        "weight": 4.901960784313725e-07
+    },
+    {
+        "keyword": "spectrometer",
+        "weight": 4.5248868778280546e-07
+    },
+    {
+        "keyword": "shortwave",
+        "weight": 4.484304932735426e-07
+    },
+    {
+        "keyword": "itovs",
+        "weight": 4.329004329004329e-07
+    },
+    {
+        "keyword": "climatology",
+        "weight": 4.2016806722689076e-07
+    },
+    {
+        "keyword": "eeoc",
+        "weight": 4.0160642570281125e-07
+    },
+    {
+        "keyword": "vertical+velocity",
+        "weight": 3.90625e-07
+    },
+    {
+        "keyword": "national+aeronautics+and+space+administration",
+        "weight": 3.8461538461538463e-07
+    },
+    {
+        "keyword": "nepa",
+        "weight": 3.8022813688212925e-07
+    },
+    {
+        "keyword": "spaceflight",
+        "weight": 3.7453183520599253e-07
+    },
+    {
+        "keyword": "sublimation",
+        "weight": 3.717472118959108e-07
+    },
+    {
+        "keyword": "ocean+dynamics",
+        "weight": 3.690036900369004e-07
+    },
+    {
+        "keyword": "stratosphere",
+        "weight": 3.690036900369004e-07
+    },
+    {
+        "keyword": "geophysics",
+        "weight": 3.6231884057971015e-07
+    },
+    {
+        "keyword": "dhhs",
+        "weight": 3.5971223021582736e-07
+    },
+    {
+        "keyword": "solar+probe",
+        "weight": 3.5087719298245616e-07
+    },
+    {
+        "keyword": "spacecenter.org",
+        "weight": 3.4013605442176873e-07
+    },
+    {
+        "keyword": "numerical+weather+forecasting",
+        "weight": 3.389830508474576e-07
+    },
+    {
+        "keyword": "lidar",
+        "weight": 3.3003300330033e-07
+    },
+    {
+        "keyword": "arra",
+        "weight": 3.2679738562091505e-07
+    },
+    {
+        "keyword": "biosphere",
+        "weight": 3.2679738562091505e-07
+    },
+    {
+        "keyword": "dione",
+        "weight": 3.2679738562091505e-07
+    },
+    {
+        "keyword": "momentum+flux",
+        "weight": 3.257328990228013e-07
+    },
+    {
+        "keyword": "oceanography",
+        "weight": 3.2362459546925565e-07
+    },
+    {
+        "keyword": "ice+concentration",
+        "weight": 3.0959752321981424e-07
+    },
+    {
+        "keyword": "buoy",
+        "weight": 3.03951367781155e-07
+    },
+    {
+        "keyword": "nist",
+        "weight": 3.0120481927710845e-07
+    },
+    {
+        "keyword": "kinetic+energy",
+        "weight": 2.967359050445104e-07
+    },
+    {
+        "keyword": "fips",
+        "weight": 2.9498525073746315e-07
+    },
+    {
+        "keyword": "cloud+liquid",
+        "weight": 2.9325513196480937e-07
+    },
+    {
+        "keyword": "informal+science+education",
+        "weight": 2.9239766081871344e-07
+    },
+    {
+        "keyword": "rhea",
+        "weight": 2.9239766081871344e-07
+    },
+    {
+        "keyword": "evaporation",
+        "weight": 2.915451895043732e-07
+    },
+    {
+        "keyword": "planetary+boundary+height",
+        "weight": 2.915451895043732e-07
+    },
+    {
+        "keyword": "gravity+wave",
+        "weight": 2.9069767441860464e-07
+    },
+    {
+        "keyword": "magellan",
+        "weight": 2.9069767441860464e-07
+    },
+    {
+        "keyword": "soil+moisture",
+        "weight": 2.9069767441860464e-07
+    },
+    {
+        "keyword": "runoff",
+        "weight": 2.898550724637681e-07
+    },
+    {
+        "keyword": "nasa+climate+change",
+        "weight": 2.890173410404624e-07
+    },
+    {
+        "keyword": "precipitable+water",
+        "weight": 2.881844380403458e-07
+    },
+    {
+        "keyword": "clementine",
+        "weight": 2.865329512893983e-07
+    },
+    {
+        "keyword": "aeronautics",
+        "weight": 2.857142857142857e-07
+    },
+    {
+        "keyword": "u.+s.+geological+survey",
+        "weight": 2.849002849002849e-07
+    },
+    {
+        "keyword": "wind+tunnel",
+        "weight": 2.849002849002849e-07
+    },
+    {
+        "keyword": "earth+observing+system",
+        "weight": 2.840909090909091e-07
+    },
+    {
+        "keyword": "topography",
+        "weight": 2.840909090909091e-07
+    },
+    {
+        "keyword": "patty+garcia",
+        "weight": 2.8089887640449437e-07
+    },
+    {
+        "keyword": "fdic",
+        "weight": 2.793296089385475e-07
+    },
+    {
+        "keyword": "turbulence",
+        "weight": 2.793296089385475e-07
+    },
+    {
+        "keyword": "radiance",
+        "weight": 2.7624309392265196e-07
+    },
+    {
+        "keyword": "flagstaff",
+        "weight": 2.6954177897574125e-07
+    },
+    {
+        "keyword": "aerosol",
+        "weight": 2.688172043010753e-07
+    },
+    {
+        "keyword": "convection",
+        "weight": 2.680965147453083e-07
+    },
+    {
+        "keyword": "goddard",
+        "weight": 2.680965147453083e-07
+    },
+    {
+        "keyword": "dewpoint",
+        "weight": 2.6666666666666667e-07
+    },
+    {
+        "keyword": "federated+search",
+        "weight": 2.6595744680851066e-07
+    },
+    {
+        "keyword": "grids",
+        "weight": 2.6595744680851066e-07
+    },
+    {
+        "keyword": "coasts",
+        "weight": 2.6525198938992043e-07
+    },
+    {
+        "keyword": "outlying",
+        "weight": 2.6525198938992043e-07
+    },
+    {
+        "keyword": "expenditures",
+        "weight": 2.631578947368421e-07
+    },
+    {
+        "keyword": "soil+temperature",
+        "weight": 2.624671916010499e-07
+    },
+    {
+        "keyword": "meteorology",
+        "weight": 2.570694087403599e-07
+    },
+    {
+        "keyword": "usgs",
+        "weight": 2.525252525252525e-07
+    },
+    {
+        "keyword": "remote+sensing",
+        "weight": 2.506265664160401e-07
+    },
+    {
+        "keyword": "nasa+graduate+fellowship",
+        "weight": 2.5e-07
+    },
+    {
+        "keyword": "geological+survey",
+        "weight": 2.469135802469136e-07
+    },
+    {
+        "keyword": "marine+biology",
+        "weight": 2.469135802469136e-07
+    },
+    {
+        "keyword": "greenhouse+gases",
+        "weight": 2.439024390243902e-07
+    },
+    {
+        "keyword": "snowfall",
+        "weight": 2.4330900243309e-07
+    },
+    {
+        "keyword": "appalachian",
+        "weight": 2.421307506053269e-07
+    },
+    {
+        "keyword": "nara",
+        "weight": 2.3923444976076555e-07
+    },
+    {
+        "keyword": "carbon+dioxide",
+        "weight": 2.2522522522522522e-07
+    },
+    {
+        "keyword": "per-capita",
+        "weight": 2.2371364653243848e-07
+    },
+    {
+        "keyword": "endowment",
+        "weight": 2.2123893805309735e-07
+    },
+    {
+        "keyword": "tropical+storms",
+        "weight": 2.207505518763797e-07
+    },
+    {
+        "keyword": "calibration",
+        "weight": 2.178649237472767e-07
+    },
+    {
+        "keyword": "graduate+student+fellowship",
+        "weight": 2.178649237472767e-07
+    },
+    {
+        "keyword": "galileo",
+        "weight": 2.173913043478261e-07
+    },
+    {
+        "keyword": "graduate+student+fellowships",
+        "weight": 2.173913043478261e-07
+    },
+    {
+        "keyword": "pluto",
+        "weight": 2.1459227467811158e-07
+    },
+    {
+        "keyword": "condominiums",
+        "weight": 2.1231422505307855e-07
+    },
+    {
+        "keyword": "ozone",
+        "weight": 2.109704641350211e-07
+    },
+    {
+        "keyword": "satellites",
+        "weight": 2.0876826722338204e-07
+    },
+    {
+        "keyword": "algorithms",
+        "weight": 2.0661157024793388e-07
+    },
+    {
+        "keyword": "water+color",
+        "weight": 2.05761316872428e-07
+    },
+    {
+        "keyword": "currents",
+        "weight": 2.0242914979757086e-07
+    },
+    {
+        "keyword": "biochemistry",
+        "weight": 1.996007984031936e-07
+    },
+    {
+        "keyword": "neptune",
+        "weight": 1.7857142857142858e-07
+    },
+    {
+        "keyword": "science+gateway",
+        "weight": 1.694915254237288e-07
+    },
+    {
+        "keyword": "nasa+careers",
+        "weight": 1.5220700152207e-07
+    },
+    {
+        "keyword": "global+warming",
+        "weight": 1.2919896640826874e-07
+    },
+    {
+        "keyword": "lunar+surface",
+        "weight": 1.1173184357541899e-07
+    },
+    {
+        "keyword": "precipitation",
+        "weight": 1.0570824524312896e-07
+    },
+    {
+        "keyword": "insured",
+        "weight": 1.0050251256281407e-07
+    },
+    {
+        "keyword": "usda",
+        "weight": 7.518796992481203e-08
+    },
+    {
+        "keyword": "borough",
+        "weight": 7.246376811594203e-08
+    },
+    {
+        "keyword": "hurricanes",
+        "weight": 6.802721088435375e-08
+    },
+    {
+        "keyword": "soho",
+        "weight": 6.756756756756757e-08
+    },
+    {
+        "keyword": "consolidated",
+        "weight": 6.451612903225807e-08
+    },
+    {
+        "keyword": "inactive",
+        "weight": 6.211180124223603e-08
+    },
+    {
+        "keyword": "thickness",
+        "weight": 5.813953488372093e-08
+    },
+    {
+        "keyword": "congressional",
+        "weight": 5.5865921787709496e-08
+    },
+    {
+        "keyword": "voyager+2",
+        "weight": 5.5555555555555555e-08
+    },
+    {
+        "keyword": "voyager+1",
+        "weight": 5.4054054054054056e-08
+    },
+    {
+        "keyword": "uranus",
+        "weight": 5.1020408163265303e-08
+    },
+    {
+        "keyword": "energy+conservation",
+        "weight": 5.0505050505050506e-08
+    },
+    {
+        "keyword": "summer+workshops+for+teachers",
+        "weight": 4.901960784313725e-08
+    },
+    {
+        "keyword": "municipality",
+        "weight": 4.672897196261682e-08
+    },
+    {
+        "keyword": "supplemental",
+        "weight": 4.424778761061947e-08
+    },
+    {
+        "keyword": "medicare",
+        "weight": 4.1322314049586776e-08
+    },
+    {
+        "keyword": "humidity",
+        "weight": 3.952569169960474e-08
+    },
+    {
+        "keyword": "micronesia",
+        "weight": 3.787878787878788e-08
+    },
+    {
+        "keyword": "planetary+data+system",
+        "weight": 3.717472118959108e-08
+    },
+    {
+        "keyword": "solid+earth",
+        "weight": 3.6101083032490976e-08
+    },
+    {
+        "keyword": "solid+earth",
+        "weight": 3.6101083032490976e-08
+    },
+    {
+        "keyword": "volcano",
+        "weight": 3.508771929824562e-08
+    },
+    {
+        "keyword": "commodity",
+        "weight": 3.448275862068966e-08
+    },
+    {
+        "keyword": "cloud+cover",
+        "weight": 3.3898305084745764e-08
+    },
+    {
+        "keyword": "treasury",
+        "weight": 3.322259136212624e-08
+    },
+    {
+        "keyword": "wages",
+        "weight": 3.311258278145695e-08
+    },
+    {
+        "keyword": "obligations",
+        "weight": 3.236245954692557e-08
+    },
+    {
+        "keyword": "science+internships",
+        "weight": 3.1152647975077883e-08
+    },
+    {
+        "keyword": "geology",
+        "weight": 3.076923076923077e-08
+    },
+    {
+        "keyword": "geology",
+        "weight": 3.0211480362537764e-08
+    },
+    {
+        "keyword": "civilian",
+        "weight": 3.012048192771084e-08
+    },
+    {
+        "keyword": "lunar",
+        "weight": 3.003003003003003e-08
+    },
+    {
+        "keyword": "freezing",
+        "weight": 2.9673590504451037e-08
+    },
+    {
+        "keyword": "oceans",
+        "weight": 2.9411764705882354e-08
+    },
+    {
+        "keyword": "oceans",
+        "weight": 2.9411764705882354e-08
+    },
+    {
+        "keyword": "unemployment",
+        "weight": 2.9239766081871347e-08
+    },
+    {
+        "keyword": "homeland",
+        "weight": 2.898550724637681e-08
+    },
+    {
+        "keyword": "procurement",
+        "weight": 2.8901734104046243e-08
+    },
+    {
+        "keyword": "humanities",
+        "weight": 2.8818443804034583e-08
+    },
+    {
+        "keyword": "ice+thickness",
+        "weight": 2.8735632183908047e-08
+    },
+    {
+        "keyword": "global+climate+change",
+        "weight": 2.849002849002849e-08
+    },
+    {
+        "keyword": "land+surface",
+        "weight": 2.8409090909090908e-08
+    },
+    {
+        "keyword": "night+temperature",
+        "weight": 2.808988764044944e-08
+    },
+    {
+        "keyword": "palau",
+        "weight": 2.8011204481792718e-08
+    },
+    {
+        "keyword": "retire",
+        "weight": 2.7932960893854748e-08
+    },
+    {
+        "keyword": "poster+lesson",
+        "weight": 2.785515320334262e-08
+    },
+    {
+        "keyword": "space+science+experiments",
+        "weight": 2.7777777777777777e-08
+    },
+    {
+        "keyword": "governments",
+        "weight": 2.7700831024930747e-08
+    },
+    {
+        "keyword": "landmark",
+        "weight": 2.7548209366391185e-08
+    },
+    {
+        "keyword": "sea+surface",
+        "weight": 2.7548209366391185e-08
+    },
+    {
+        "keyword": "potential+energy",
+        "weight": 2.7472527472527473e-08
+    },
+    {
+        "keyword": "jupiter",
+        "weight": 2.7397260273972602e-08
+    },
+    {
+        "keyword": "agreements",
+        "weight": 2.7247956403269755e-08
+    },
+    {
+        "keyword": "pacific+ocean",
+        "weight": 2.7100271002710027e-08
+    },
+    {
+        "keyword": "saturn",
+        "weight": 2.6954177897574124e-08
+    },
+    {
+        "keyword": "solar+radiation",
+        "weight": 2.6881720430107527e-08
+    },
+    {
+        "keyword": "cooperative",
+        "weight": 2.6737967914438503e-08
+    },
+    {
+        "keyword": "satellite+imagery",
+        "weight": 2.6737967914438503e-08
+    },
+    {
+        "keyword": "astronomy",
+        "weight": 2.6595744680851065e-08
+    },
+    {
+        "keyword": "ground+heat",
+        "weight": 2.6595744680851065e-08
+    },
+    {
+        "keyword": "sea+ice",
+        "weight": 2.6525198938992043e-08
+    },
+    {
+        "keyword": "balloon",
+        "weight": 2.6041666666666667e-08
+    },
+    {
+        "keyword": "federal+regulations",
+        "weight": 2.5906735751295338e-08
+    },
+    {
+        "keyword": "samoa",
+        "weight": 2.577319587628866e-08
+    },
+    {
+        "keyword": "crop",
+        "weight": 2.570694087403599e-08
+    },
+    {
+        "keyword": "guam",
+        "weight": 2.570694087403599e-08
+    },
+    {
+        "keyword": "mariana",
+        "weight": 2.570694087403599e-08
+    },
+    {
+        "keyword": "territories",
+        "weight": 2.570694087403599e-08
+    },
+    {
+        "keyword": "solar+system",
+        "weight": 2.5125628140703518e-08
+    },
+    {
+        "keyword": "ocean+sciences",
+        "weight": 2.5e-08
+    },
+    {
+        "keyword": "snow+cover",
+        "weight": 2.5e-08
+    },
+    {
+        "keyword": "radiation",
+        "weight": 2.4875621890547265e-08
+    },
+    {
+        "keyword": "parish",
+        "weight": 2.4813895781637718e-08
+    },
+    {
+        "keyword": "data+processing",
+        "weight": 2.4752475247524754e-08
+    },
+    {
+        "keyword": "internships",
+        "weight": 2.4752475247524754e-08
+    },
+    {
+        "keyword": "elevation",
+        "weight": 2.469135802469136e-08
+    },
+    {
+        "keyword": "snow+depth",
+        "weight": 2.469135802469136e-08
+    },
+    {
+        "keyword": "teaching+aids",
+        "weight": 2.403846153846154e-08
+    },
+    {
+        "keyword": "venus",
+        "weight": 2.3980815347721823e-08
+    },
+    {
+        "keyword": "nasa",
+        "weight": 2.380952380952381e-08
+    },
+    {
+        "keyword": "earth+science+education",
+        "weight": 2.347417840375587e-08
+    },
+    {
+        "keyword": "omega",
+        "weight": 2.347417840375587e-08
+    },
+    {
+        "keyword": "agricultural",
+        "weight": 2.331002331002331e-08
+    },
+    {
+        "keyword": "optical",
+        "weight": 2.3094688221709007e-08
+    },
+    {
+        "keyword": "imaging",
+        "weight": 2.304147465437788e-08
+    },
+    {
+        "keyword": "exhibit",
+        "weight": 2.2988505747126436e-08
+    },
+    {
+        "keyword": "climate+change",
+        "weight": 2.2123893805309735e-08
+    },
+    {
+        "keyword": "museums",
+        "weight": 2.159827213822894e-08
+    },
+    {
+        "keyword": "legislation",
+        "weight": 2.1459227467811158e-08
+    },
+    {
+        "keyword": "flood",
+        "weight": 2.1231422505307857e-08
+    },
+    {
+        "keyword": "applied+science",
+        "weight": 2.114164904862579e-08
+    },
+    {
+        "keyword": "deposit",
+        "weight": 2.1008403361344538e-08
+    },
+    {
+        "keyword": "broadcasting",
+        "weight": 2.0449897750511248e-08
+    },
+    {
+        "keyword": "atmoshpere",
+        "weight": 2.0366598778004074e-08
+    },
+    {
+        "keyword": "snap",
+        "weight": 2.0366598778004074e-08
+    },
+    {
+        "keyword": "atmosphere",
+        "weight": 2.032520325203252e-08
+    },
+    {
+        "keyword": "atmosphere",
+        "weight": 2.032520325203252e-08
+    },
+    {
+        "keyword": "spending",
+        "weight": 2.02020202020202e-08
+    },
+    {
+        "keyword": "homework+help",
+        "weight": 1.9880715705765407e-08
+    },
+    {
+        "keyword": "conservation",
+        "weight": 1.937984496124031e-08
+    },
+    {
+        "keyword": "space+missions",
+        "weight": 1.9011406844106463e-08
+    },
+    {
+        "keyword": "contracts",
+        "weight": 1.893939393939394e-08
+    },
+    {
+        "keyword": "mercury",
+        "weight": 1.893939393939394e-08
+    },
+    {
+        "keyword": "lunar+map",
+        "weight": 1.8832391713747646e-08
+    },
+    {
+        "keyword": "lightning",
+        "weight": 1.8248175182481753e-08
+    },
+    {
+        "keyword": "salaries",
+        "weight": 1.8083182640144666e-08
+    },
+    {
+        "keyword": "physical+science+education",
+        "weight": 1.773049645390071e-08
+    },
+    {
+        "keyword": "earned",
+        "weight": 1.7152658662092626e-08
+    },
+    {
+        "keyword": "mortgage",
+        "weight": 1.7035775127768315e-08
+    },
+    {
+        "keyword": "scholarships",
+        "weight": 1.6863406408094436e-08
+    },
+    {
+        "keyword": "guaranteed",
+        "weight": 1.6722408026755852e-08
+    },
+    {
+        "keyword": "ocean+currents",
+        "weight": 1.6722408026755852e-08
+    },
+    {
+        "keyword": "student+lesson+plans",
+        "weight": 1.6501650165016502e-08
+    },
+    {
+        "keyword": "education+catalog",
+        "weight": 1.6474464579901154e-08
+    },
+    {
+        "keyword": "earth+science",
+        "weight": 1.620745542949757e-08
+    },
+    {
+        "keyword": "earth+science",
+        "weight": 1.620745542949757e-08
+    },
+    {
+        "keyword": "environmental+quality",
+        "weight": 1.6051364365971106e-08
+    },
+    {
+        "keyword": "technology+education+activities",
+        "weight": 1.597444089456869e-08
+    },
+    {
+        "keyword": "current+velocity",
+        "weight": 1.594896331738437e-08
+    },
+    {
+        "keyword": "science+portal",
+        "weight": 1.5576323987538942e-08
+    },
+    {
+        "keyword": "science+experiments",
+        "weight": 1.5552099533437016e-08
+    },
+    {
+        "keyword": "environmental+science",
+        "weight": 1.550387596899225e-08
+    },
+    {
+        "keyword": "nino",
+        "weight": 1.550387596899225e-08
+    },
+    {
+        "keyword": "workshops+for+educators",
+        "weight": 1.5479876160990712e-08
+    },
+    {
+        "keyword": "geographic",
+        "weight": 1.545595054095827e-08
+    },
+    {
+        "keyword": "fiscal",
+        "weight": 1.5360983102918588e-08
+    },
+    {
+        "keyword": "government+technology",
+        "weight": 1.5337423312883435e-08
+    },
+    {
+        "keyword": "mathematics",
+        "weight": 1.5337423312883435e-08
+    },
+    {
+        "keyword": "life+science+education",
+        "weight": 1.5267175572519085e-08
+    },
+    {
+        "keyword": "computer+science",
+        "weight": 1.5174506828528073e-08
+    },
+    {
+        "keyword": "natural+resources",
+        "weight": 1.5015015015015016e-08
+    },
+    {
+        "keyword": "compensation",
+        "weight": 1.497005988023952e-08
+    },
+    {
+        "keyword": "grade+level",
+        "weight": 1.4947683109118087e-08
+    },
+    {
+        "keyword": "reported",
+        "weight": 1.4771048744460856e-08
+    },
+    {
+        "keyword": "postal",
+        "weight": 1.4598540145985402e-08
+    },
+    {
+        "keyword": "puerto+rico",
+        "weight": 1.443001443001443e-08
+    },
+    {
+        "keyword": "aircraft",
+        "weight": 1.4409221902017291e-08
+    },
+    {
+        "keyword": "physics",
+        "weight": 1.4285714285714286e-08
+    },
+    {
+        "keyword": "europa",
+        "weight": 1.4265335235378032e-08
+    },
+    {
+        "keyword": "agriculture",
+        "weight": 1.4245014245014245e-08
+    },
+    {
+        "keyword": "agriculture",
+        "weight": 1.4245014245014245e-08
+    },
+    {
+        "keyword": "rankings",
+        "weight": 1.3793103448275862e-08
+    },
+    {
+        "keyword": "affairs",
+        "weight": 1.3679890560875512e-08
+    },
+    {
+        "keyword": "election",
+        "weight": 1.3679890560875512e-08
+    },
+    {
+        "keyword": "biology",
+        "weight": 1.3422818791946309e-08
+    },
+    {
+        "keyword": "bilogy",
+        "weight": 1.3404825737265415e-08
+    },
+    {
+        "keyword": "science+education+resources",
+        "weight": 1.3106159895150721e-08
+    },
+    {
+        "keyword": "loans",
+        "weight": 1.303780964797914e-08
+    },
+    {
+        "keyword": "marshall",
+        "weight": 1.2987012987012986e-08
+    },
+    {
+        "keyword": "resident",
+        "weight": 1.2903225806451612e-08
+    },
+    {
+        "keyword": "grants",
+        "weight": 1.2642225031605563e-08
+    },
+    {
+        "keyword": "chemistry",
+        "weight": 1.2626262626262626e-08
+    },
+    {
+        "keyword": "disability",
+        "weight": 1.2578616352201257e-08
+    },
+    {
+        "keyword": "veterans",
+        "weight": 1.2531328320802004e-08
+    },
+    {
+        "keyword": "funding",
+        "weight": 1.2300123001230013e-08
+    },
+    {
+        "keyword": "climate",
+        "weight": 1.2285012285012286e-08
+    },
+    {
+        "keyword": "existing",
+        "weight": 1.2254901960784313e-08
+    },
+    {
+        "keyword": "mars",
+        "weight": 1.2150668286755772e-08
+    },
+    {
+        "keyword": "delta",
+        "weight": 1.2135922330097088e-08
+    },
+    {
+        "keyword": "commerce",
+        "weight": 1.2121212121212122e-08
+    },
+    {
+        "keyword": "faculty",
+        "weight": 1.1933174224343675e-08
+    },
+    {
+        "keyword": "funds",
+        "weight": 1.1876484560570071e-08
+    },
+    {
+        "keyword": "equal",
+        "weight": 1.1862396204033215e-08
+    },
+    {
+        "keyword": "cape",
+        "weight": 1.183431952662722e-08
+    },
+    {
+        "keyword": "science+centers",
+        "weight": 1.180637544273908e-08
+    },
+    {
+        "keyword": "islands",
+        "weight": 1.1778563015312133e-08
+    },
+    {
+        "keyword": "federal+government",
+        "weight": 1.1723329425556858e-08
+    },
+    {
+        "keyword": "solar",
+        "weight": 1.1560693641618497e-08
+    },
+    {
+        "keyword": "technologies",
+        "weight": 1.1534025374855824e-08
+    },
+    {
+        "keyword": "dollars",
+        "weight": 1.1507479861910241e-08
+    },
+    {
+        "keyword": "retirement",
+        "weight": 1.148105625717566e-08
+    },
+    {
+        "keyword": "domestic",
+        "weight": 1.145475372279496e-08
+    },
+    {
+        "keyword": "gate",
+        "weight": 1.1350737797956867e-08
+    },
+    {
+        "keyword": "opportunity",
+        "weight": 1.128668171557562e-08
+    },
+    {
+        "keyword": "authority",
+        "weight": 1.1198208286674133e-08
+    },
+    {
+        "keyword": "investment",
+        "weight": 1.1098779134295227e-08
+    },
+    {
+        "keyword": "defense",
+        "weight": 1.1086474501108647e-08
+    },
+    {
+        "keyword": "commission",
+        "weight": 1.0940919037199125e-08
+    },
+    {
+        "keyword": "justice",
+        "weight": 1.092896174863388e-08
+    },
+    {
+        "keyword": "agencies",
+        "weight": 1.0905125408942202e-08
+    },
+    {
+        "keyword": "devices",
+        "weight": 1.0660980810234541e-08
+    },
+    {
+        "keyword": "transport",
+        "weight": 1.0638297872340425e-08
+    },
+    {
+        "keyword": "temperature",
+        "weight": 1.0626992561105207e-08
+    },
+    {
+        "keyword": "navy",
+        "weight": 1.0570824524312896e-08
+    },
+    {
+        "keyword": "income",
+        "weight": 1.053740779768177e-08
+    },
+    {
+        "keyword": "environmental",
+        "weight": 1.0493179433368311e-08
+    },
+    {
+        "keyword": "labor",
+        "weight": 1.0460251046025105e-08
+    },
+    {
+        "keyword": "population",
+        "weight": 1.040582726326743e-08
+    },
+    {
+        "keyword": "formula",
+        "weight": 1.0351966873706005e-08
+    },
+    {
+        "keyword": "nutrition",
+        "weight": 1.0330578512396694e-08
+    },
+    {
+        "keyword": "foreign",
+        "weight": 1.0256410256410256e-08
+    },
+    {
+        "keyword": "dollar",
+        "weight": 1.0235414534288638e-08
+    },
+    {
+        "keyword": "pressure",
+        "weight": 1.0183299389002037e-08
+    },
+    {
+        "keyword": "computers",
+        "weight": 9.900990099009902e-09
+    },
+    {
+        "keyword": "interior",
+        "weight": 9.900990099009902e-09
+    },
+    {
+        "keyword": "employees",
+        "weight": 9.803921568627451e-09
+    },
+    {
+        "keyword": "ship",
+        "weight": 9.803921568627451e-09
+    },
+    {
+        "keyword": "urban",
+        "weight": 9.803921568627451e-09
+    },
+    {
+        "keyword": "army",
+        "weight": 9.615384615384615e-09
+    },
+    {
+        "keyword": "medicine",
+        "weight": 9.615384615384615e-09
+    },
+    {
+        "keyword": "volume",
+        "weight": 9.615384615384615e-09
+    },
+    {
+        "keyword": "facilities",
+        "weight": 9.345794392523365e-09
+    },
+    {
+        "keyword": "ocean",
+        "weight": 9.174311926605505e-09
+    },
+    {
+        "keyword": "ocean",
+        "weight": 9.174311926605505e-09
+    },
+    {
+        "keyword": "u.s.+government+science",
+        "weight": 9.174311926605505e-09
+    },
+    {
+        "keyword": "communication",
+        "weight": 8.928571428571428e-09
+    },
+    {
+        "keyword": "engineering",
+        "weight": 8.620689655172414e-09
+    },
+    {
+        "keyword": "housing",
+        "weight": 8.474576271186441e-09
+    },
+    {
+        "keyword": "protection",
+        "weight": 8.474576271186441e-09
+    },
+    {
+        "keyword": "assistance",
+        "weight": 8.403361344537815e-09
+    },
+    {
+        "keyword": "district",
+        "weight": 8.333333333333334e-09
+    },
+    {
+        "keyword": "hospital",
+        "weight": 8.333333333333334e-09
+    },
+    {
+        "keyword": "administration",
+        "weight": 8.130081300813008e-09
+    },
+    {
+        "keyword": "science+education",
+        "weight": 7.936507936507936e-09
+    },
+    {
+        "keyword": "federal",
+        "weight": 7.874015748031496e-09
+    },
+    {
+        "keyword": "science+news",
+        "weight": 7.8125e-09
+    },
+    {
+        "keyword": "northern",
+        "weight": 7.692307692307693e-09
+    },
+    {
+        "keyword": "insurance",
+        "weight": 7.575757575757576e-09
+    },
+    {
+        "keyword": "national+standards",
+        "weight": 7.092198581560283e-09
+    },
+    {
+        "keyword": "museum",
+        "weight": 7.04225352112676e-09
+    },
+    {
+        "keyword": "online+educator+resources",
+        "weight": 6.993006993006993e-09
+    },
+    {
+        "keyword": "sea+viewing",
+        "weight": 6.944444444444444e-09
+    },
+    {
+        "keyword": "agency",
+        "weight": 6.711409395973154e-09
+    },
+    {
+        "keyword": "force",
+        "weight": 6.666666666666667e-09
+    },
+    {
+        "keyword": "environment",
+        "weight": 6.622516556291391e-09
+    },
+    {
+        "keyword": "catalog",
+        "weight": 6.578947368421053e-09
+    },
+    {
+        "keyword": "actual",
+        "weight": 6.493506493506493e-09
+    },
+    {
+        "keyword": "military",
+        "weight": 6.493506493506493e-09
+    },
+    {
+        "keyword": "institute",
+        "weight": 6.369426751592357e-09
+    },
+    {
+        "keyword": "credits",
+        "weight": 6.329113924050633e-09
+    },
+    {
+        "keyword": "regional",
+        "weight": 6.25e-09
+    },
+    {
+        "keyword": "moon",
+        "weight": 6.2111801242236026e-09
+    },
+    {
+        "keyword": "teacher",
+        "weight": 6.2111801242236026e-09
+    },
+    {
+        "keyword": "nature",
+        "weight": 6.134969325153374e-09
+    },
+    {
+        "keyword": "state+standards",
+        "weight": 6.134969325153374e-09
+    },
+    {
+        "keyword": "payments",
+        "weight": 6.060606060606061e-09
+    },
+    {
+        "keyword": "data+systems",
+        "weight": 5.988023952095808e-09
+    },
+    {
+        "keyword": "archives",
+        "weight": 5.847953216374269e-09
+    },
+    {
+        "keyword": "active",
+        "weight": 5.813953488372093e-09
+    },
+    {
+        "keyword": "energy",
+        "weight": 5.813953488372093e-09
+    },
+    {
+        "keyword": "materials",
+        "weight": 5.714285714285714e-09
+    },
+    {
+        "keyword": "corporation",
+        "weight": 5.681818181818182e-09
+    },
+    {
+        "keyword": "earth",
+        "weight": 5.681818181818182e-09
+    },
+    {
+        "keyword": "projects",
+        "weight": 5.649717514124294e-09
+    },
+    {
+        "keyword": "planet",
+        "weight": 5.617977528089888e-09
+    },
+    {
+        "keyword": "areas",
+        "weight": 5.5865921787709494e-09
+    },
+    {
+        "keyword": "financial",
+        "weight": 5.5865921787709494e-09
+    },
+    {
+        "keyword": "education+program",
+        "weight": 5.555555555555556e-09
+    },
+    {
+        "keyword": "benefits",
+        "weight": 5.494505494505494e-09
+    },
+    {
+        "keyword": "mission",
+        "weight": 5.434782608695652e-09
+    },
+    {
+        "keyword": "annual",
+        "weight": 5.405405405405406e-09
+    },
+    {
+        "keyword": "arts",
+        "weight": 5.347593582887701e-09
+    },
+    {
+        "keyword": "foundation",
+        "weight": 5.347593582887701e-09
+    },
+    {
+        "keyword": "library",
+        "weight": 5.291005291005291e-09
+    },
+    {
+        "keyword": "japan",
+        "weight": 5.208333333333334e-09
+    },
+    {
+        "keyword": "direct",
+        "weight": 4.975124378109452e-09
+    },
+    {
+        "keyword": "records",
+        "weight": 4.716981132075472e-09
+    },
+    {
+        "keyword": "technology",
+        "weight": 4.716981132075472e-09
+    },
+    {
+        "keyword": "space",
+        "weight": 4.6511627906976744e-09
+    },
+    {
+        "keyword": "image+map",
+        "weight": 4.329004329004329e-09
+    },
+    {
+        "keyword": "global",
+        "weight": 4.25531914893617e-09
+    },
+    {
+        "keyword": "security",
+        "weight": 4.184100418410042e-09
+    },
+    {
+        "keyword": "photo+search",
+        "weight": 4.016064257028113e-09
+    },
+    {
+        "keyword": "statistics",
+        "weight": 3.891050583657587e-09
+    },
+    {
+        "keyword": "weather",
+        "weight": 3.891050583657587e-09
+    },
+    {
+        "keyword": "social",
+        "weight": 3.52112676056338e-09
+    },
+    {
+        "keyword": "homes",
+        "weight": 3.2467532467532466e-09
+    },
+    {
+        "keyword": "science",
+        "weight": 3.1446540880503143e-09
+    },
+    {
+        "keyword": "systems",
+        "weight": 2.840909090909091e-09
+    },
+    {
+        "keyword": "apollo",
+        "weight": 2.7247956403269754e-09
+    },
+    {
+        "keyword": "information+systems",
+        "weight": 2.604166666666667e-09
+    },
+    {
+        "keyword": "major",
+        "weight": 2.4509803921568627e-09
+    },
+    {
+        "keyword": "student",
+        "weight": 2.4390243902439025e-09
+    },
+    {
+        "keyword": "employment",
+        "weight": 2.380952380952381e-09
+    },
+    {
+        "keyword": "image+search",
+        "weight": 2.237136465324385e-09
+    },
+    {
+        "keyword": "human",
+        "weight": 2.092050209205021e-09
+    },
+    {
+        "keyword": "data",
+        "weight": 2.032520325203252e-09
+    },
+    {
+        "keyword": "department",
+        "weight": 2.028397565922921e-09
+    },
+    {
+        "keyword": "states",
+        "weight": 2.028397565922921e-09
+    },
+    {
+        "keyword": "public",
+        "weight": 1.972386587771203e-09
+    },
+    {
+        "keyword": "food",
+        "weight": 1.9607843137254903e-09
+    },
+    {
+        "keyword": "education",
+        "weight": 1.953125e-09
+    },
+    {
+        "keyword": "health",
+        "weight": 1.934235976789168e-09
+    },
+    {
+        "keyword": "local",
+        "weight": 1.934235976789168e-09
+    },
+    {
+        "keyword": "report",
+        "weight": 1.915708812260536e-09
+    },
+    {
+        "keyword": "report",
+        "weight": 1.915708812260536e-09
+    },
+    {
+        "keyword": "water",
+        "weight": 1.890359168241966e-09
+    },
+    {
+        "keyword": "place",
+        "weight": 1.8867924528301888e-09
+    },
+    {
+        "keyword": "price",
+        "weight": 1.8726591760299625e-09
+    },
+    {
+        "keyword": "small",
+        "weight": 1.8726591760299625e-09
+    },
+    {
+        "keyword": "navigation",
+        "weight": 1.8248175182481752e-09
+    },
+    {
+        "keyword": "community",
+        "weight": 1.7064846416382253e-09
+    },
+    {
+        "keyword": "county",
+        "weight": 1.6666666666666667e-09
+    },
+    {
+        "keyword": "business",
+        "weight": 1.6556291390728477e-09
+    },
+    {
+        "keyword": "family",
+        "weight": 1.6181229773462783e-09
+    },
+    {
+        "keyword": "program",
+        "weight": 1.567398119122257e-09
+    },
+    {
+        "keyword": "american",
+        "weight": 1.4534883720930233e-09
+    },
+    {
+        "keyword": "people",
+        "weight": 1.3020833333333334e-09
+    },
+    {
+        "keyword": "name",
+        "weight": 1.2919896640826874e-09
+    },
+    {
+        "keyword": "life",
+        "weight": 1.2903225806451612e-09
+    },
+    {
+        "keyword": "google",
+        "weight": 1.2658227848101267e-09
+    },
+    {
+        "keyword": "images",
+        "weight": 1.152073732718894e-09
+    },
+    {
+        "keyword": "state",
+        "weight": 1.1402508551881415e-09
+    }
+]
