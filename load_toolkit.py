@@ -2,15 +2,17 @@ import csv
 import json
 import requests
 
-data_object = []
 keyword_relations = []
 
 
 def load_treasure_csv(filepath='data/treasure.csv'):
+    data_object = []
     with open(filepath, 'r') as csvfile:
         content = csv.reader(csvfile, delimiter=',', quotechar='"')
         for row in content:
             data_object.append(row)
+
+    return data_object
 
 def generate_treasure_hunt_json():
     json_skeleton = {}
@@ -27,12 +29,11 @@ def generate_treasure_hunt_json():
                                   indent=4,
                                   separators=(',', ': ')))
 
-def generate_existing_keyword_set():
-    keyword_set = set()
+def generate_existing_keyword_relations_set(data_object):
+    keyword_relations_set = set()
     for i in range(1, len(data_object)):
         relation = {'title': data_object[i][5],
                     'keyword_relations': []}
-
         keywords_i = data_object[i][6]
         for j in range(1, len(data_object)):
             if i != j and data_object[i][5] != data_object[j][5]:
@@ -48,6 +49,18 @@ def generate_existing_keyword_set():
 
         keyword_relations.append(relation)
 
+    return keyword_relations_set
+
+def generate_existing_keyword_set(data_object):
+    keyword_set = set()
+    for i in range(1, len(data_object)):
+        if ';' in data_object[i][6]:
+            keywords = data_object[i][6].split(';')
+            for word in keywords:
+                keyword_set.add(word)
+
+    return keyword_set
+
 for data_set in keyword_relations:
     if len(data_set['keyword_relations']) > 0:
         for relationship in data_set['keyword_relations']:
@@ -55,4 +68,6 @@ for data_set in keyword_relations:
                                                               relationship.values()[0],
                                                               relationship.keys()[0])
 
+data_object = load_treasure_csv()
+x = generate_existing_keyword_set(data_object)
 print 'done!'
