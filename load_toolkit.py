@@ -62,7 +62,7 @@ def filter_keyword_set(keyword_set):
 
 
 def write_existing_keywords_json(keyword_array):
-    with open('data/existing_keywords.json', 'w') as jsonfile:
+    with open('data/keywords.json', 'w') as jsonfile:
         jsonfile.write(json.dumps(keyword_array,
                                   sort_keys=True,
                                   indent=4,
@@ -75,4 +75,4 @@ keyword_array = filter_keyword_set(keyword_set)
 keyword_array.sort()
 write_existing_keywords_json(keyword_array)
 
-print '*---*\nCreated existing_keywords.json with {} keywords.\n*---*'.format(len(keyword_array))
+print '*---*\nCreated keywords.json with {} keywords.\n*---*'.format(len(keyword_array))

@@ -1,13 +1,9 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-# 0. select keyword
-# 1. get a dataset
-# 3. comb through other datasets looking for same kewords
-# 4. relation based on keyword density (number of instances of keyword / length of file)
 
 
-def load_keyword_list(filepath='data/existing_keywords.json'):
+def load_keyword_list(filepath='data/keywords.json'):
     with open(filepath, 'r') as jsonfile:
         keyword_list = json.load(jsonfile)
     return keyword_list
@@ -72,9 +68,11 @@ def generate_keyword_weights(keyword_list):
         except:
             print 'Error creating weight.'
 
-    weighted_keyword_list = sorted(weighted_keyword_list, key=lambda k: k['weight'], reverse=True)
+    weighted_keyword_list = sorted(weighted_keyword_list,
+                                   key=lambda k: k['weight'],
+                                   reverse=True)
 
-    with open('data/weighted_existing_keywords.json', 'w') as jsonfile:
+    with open('data/weighted_keywords.json', 'w') as jsonfile:
         jsonfile.write(json.dumps(weighted_keyword_list,
                                   sort_keys=True,
                                   indent=4,
@@ -92,7 +90,7 @@ def update_master_relationship_map(density, meta_data, keyword):
 
 
 def generate_keyword_relationship_map():
-    weighted_keyword_list = load_keyword_list(filepath='data/weighted_existing_keywords.json')
+    weighted_keyword_list = load_keyword_list(filepath='data/weighted_keywords.json')
     comparison_dataset = load_dataset()
     comparison_dataset_length = len(comparison_dataset['dataset'])
     keyword_relation_map = generate_master_file_skeleton(weighted_keyword_list)
@@ -121,8 +119,28 @@ def generate_keyword_relationship_map():
                 update_master_relationship_map(density, meta_data, keyword['keyword'])
         count += 1
 
-    with open('data/keyword_relationship_map.json', 'w') as jsonfile:
+    with open('data/keyword_relationship_map_hawaii.json', 'w') as jsonfile:
             jsonfile.write(json.dumps(keyword_relation_map,
                                       sort_keys=True,
                                       indent=4,
                                       separators=(',', ': ')))
+
+def filter_non_related_keywords():
+    unfiltered = load_dataset(filepath='data/keyword_relationship_map_hawaii.json')
+    filtered = []
+    for keyword in unfiltered:
+        if (len(keyword['related_data']) > 0):
+            filtered.append(keyword)
+
+    for keyword in filtered:
+        keyword['related_data'] = sorted(keyword['related_data'],
+                                         key=lambda k: k['relation_weight'],
+                                         reverse=True)
+
+    with open('data/filtered_keyword_relationship_map_hawaii.json', 'w') as jsonfile:
+            jsonfile.write(json.dumps(filtered,
+                                      sort_keys=True,
+                                      indent=4,
+                                      separators=(',', ': ')))
+
+filter_non_related_keywords()
