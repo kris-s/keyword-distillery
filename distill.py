@@ -17,6 +17,7 @@ def distillery_manager(mode=None):
     elif mode == 'test':
         filter_non_related_keywords()
 
+
 def load_keyword_list(filepath='data/keywords.json'):
     with open(filepath, 'r') as jsonfile:
         keyword_list = json.load(jsonfile)
@@ -142,9 +143,11 @@ def generate_keyword_relationship_map():
                                       indent=4,
                                       separators=(',', ': ')))
 
+
 def filter_non_related_keywords():
-    unfiltered = load_dataset(filepath='data/filtered_keyword_relationship_map_hawaii.json')
+    unfiltered = load_dataset(filepath='data/keyword_relationship_map.json')
     filtered = []
+
     for keyword in unfiltered:
         if (len(keyword['related_data']) > 0):
             for dataset in keyword['related_data']:
@@ -161,6 +164,7 @@ def filter_non_related_keywords():
                                       sort_keys=True,
                                       indent=4,
                                       separators=(',', ': ')))
+
 
 if len(sys.argv) != 2:
     print '\nCommands:'
