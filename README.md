@@ -14,7 +14,7 @@ Generates a ranked list of keywords. Each keyword can generate a ranked list of 
  * `python distill.py filter`
 * After the filtering is finished (will take some time) a `filtered_keyword_relationship_map.json` will be created.
 
-The `filtered_keyword_relationship_map.json` contains a list of keywords and any datasets related to it. The datasets are ranked in order of `relation_weight`. This value, used together with the keyword `weight` is a reasonable approximation of the strength of a keyword-to-dataset relation.
+The `filtered_keyword_relationship_map.json` contains a list of keywords and any datasets related to it. The datasets are ranked in order of `relation_score`. This value, calculated by multiplying keyword weight and relation_weight is a reasonable approximation of the strength of a keyword-to-dataset relation.
 
 #Method
 Existing keywords were aggregated from the provided toolkit. These keywords were then given scaled weights by inversing the number of search results returned when searched for on a web browser.
